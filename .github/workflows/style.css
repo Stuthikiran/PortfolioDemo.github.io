@@ -113,9 +113,11 @@ ul {
     color: #1e90ff; /* Dodger Blue */
     text-decoration: none;
     font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 .project a:hover {
+    color: #32cd32; /* Light Green */
     text-decoration: underline;
 }
 
@@ -143,4 +145,21 @@ footer ul li a {
 
 footer ul li a:hover {
     text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #32cd32; /* Light Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2e8b57; /* Sea Green */
 }
